@@ -1,6 +1,7 @@
 # Documentation
 
-![alt](./img/placeholder.jpg)
+<img src="./img/placeholder.jpg" width="200">
+
 ![alt](./uml/diagram.svg)
 
 # H1
