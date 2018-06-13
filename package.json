@@ -1,0 +1,18 @@
+{
+    "name": "markdowntopdf",
+    "version": "0.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "plantuml": "pushd \"./src/srcUml\" && java -jar ../../plantuml.jar -tsvg -o ../uml * && popd",
+        "markdown-to-pdf": "node app.js",
+        "build": "npm run plantuml && npm run markdown-to-pdf"
+    },
+    "author": "intech",
+    "license": "",
+    "dependencies": {
+        "glob": "^7.1.2",
+        "markdown-include": "^0.4.3",
+        "markdown-pdf": "github:purtuga/markdown-pdf#master"
+    }
+}
