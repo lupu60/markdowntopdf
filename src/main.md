@@ -1,5 +1,3 @@
-# Main File
-
-#include "./chapter.1.md"
-#include "./chapter.2.md"
-#include "./chapter.3.md"
+#include "src/chapter1.md"
+#include "src/chapter2.md"
+#include "src/chapter3.md"
